@@ -1,0 +1,22 @@
+/* Celulares (Mobile-First)*/
+.title {
+  font-size: 1.5rem;
+  padding: 1rem;
+  width: 100%;
+}
+
+/* Tablets (Telas a partir de 768px) */
+@media (min-width: 768px) {
+  .title {
+    font-size: 2rem;
+    padding: 1.5rem; 
+  }
+}
+
+/* Desktops (Telas a partir de 1024px) */
+@media (min-width: 1024px) {
+  .title {
+    font-size: 2.5rem;
+    padding: 2rem;
+  }
+}

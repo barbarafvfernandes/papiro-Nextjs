@@ -1,0 +1,91 @@
+.pageContainer {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.detalhes__voltar {
+  display: inline-block;
+  margin-bottom: 2rem;
+  text-decoration: none;
+  color: rgba(255, 140, 0, 0.5);
+}
+
+.detalhes__voltar:hover{
+    color: #8e8b8b;
+}
+
+.articleContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  text-align: center; 
+}
+
+.imageWrapper{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+/* Celulares (Mobile-First) */
+.title {
+  max-width: 100%;       
+  margin-bottom: 1rem;   
+  font-size: 1.75rem;    
+  line-height: 1.3;      
+}
+
+/* (Telas a partir de 768px) */
+@media (min-width: 768px) {
+  .title {
+    max-width: 90%;      
+    margin-bottom: 1.25rem;
+    font-size: 2.25rem;  
+  }
+}
+
+/* Desktops (Telas a partir de 1024px) */
+@media (min-width: 1024px) {
+  .title {
+    max-width: 800px;   
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;   
+  }
+}
+
+
+.summary {
+  max-width: 800px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-weight: 400;
+  color: #666;
+}
+
+.imageWrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 1.5rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.thumbnail {
+  width: 100%;
+  height: auto;
+  max-width: 1200px;
+  border-radius: 8px; 
+}
+
+.htmlContent {
+  width: 100%;
+  max-width: 800px; 
+  text-align: left; 
+  line-height: 1.8;
+}
+
+.htmlContent p {
+ margin-bottom: 1.5rem;
+}
