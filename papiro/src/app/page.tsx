@@ -2,7 +2,7 @@ import styles from './page.module.css';
 import Introduction from '@/components/Introduction';
 import Grid from '@/components/Grid';
 
-export const dynamic = 'force-static';
+export const revalidate = 3600;
 
 export default function Home() {
   return (
